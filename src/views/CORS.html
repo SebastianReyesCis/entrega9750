@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CORS</title>
+</head>
+<body>
+    Abrir consola y ver si acepta CORS
+</body>
+</html>
+
+<script>
+    fetch("https://5f2t1lb9-3000.brs.devtunnels.ms/api/users")
+    .then(data=> data.json())
+    .then(data=> console.log(data))
+</script>
